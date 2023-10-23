@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.cartao{
+    margin-top: 10vh;
+    background-color:  hsl(216, 50%, 16%);
+    width: 25vw;
+    border-radius:20px ;
+    position: absolute;
+    left: 38vw;
+}
+#imgtop{
+    width: 23vw;
+
+    margin-left: 12.5px;
+    border-radius:20px ;
+    margin-top: 10px;
+
+}
+h1{
+    color:hsl(0, 0%, 100%);
+    margin: 5px;
+    font-size: 18px;
+font-weight: 600;
+}
+.texto{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+p{
+    opacity: 0.5;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 300;
+ 
+}
+#avatar{
+    width: 5vh;
+    border: white 1px solid;
+    border-radius: 100%;
+   margin-right: 13px;
+}
+#wyvern{
+    position: relative;
+    bottom: 2vh;
+}
+hr{
+    background-color: hsl(215, 32%, 27%);
+}
+.item{
+    display: inline-block;
+}
+.clock{
+    position: relative;
+    left: 13vw;
+    bottom: 4vh;
+}
+.footer{
+    margin: 10px;
+}
+span{
+    color: white;
+
+    position: relative;
+    bottom: 1vw;
+    left: 0.5vw;
+}
+#eth{
+    color: hsl(178, 100%, 50%);
+
+}
